@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+      <div class="nav-bar">
+        <div class="logo">Susmita Tupurwadkar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill-section">SKILLS</a></li>
+                <li><a href="#workk">Work</a></li>
+                <li><a href="#contact">contact </a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Susmita Tupurwadkar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education"  onclick="toggleMenu()">Education</a></li>
+                <li><a href="#skill-section"  onclick="toggleMenu()">SKILLS</a></li>
+                <li><a href="#workk"  onclick="toggleMenu()">Work</a></li>
+                <li><a href="#contact"  onclick="toggleMenu()">contact </a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container profile_name">
+            <img src="./files/profile3.jpg" alt="SusmitaTupurwadkar Profile picture" class="about-pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I'm</p>
+            <h1 class="title">Susmita Tupurwadkar</h1>
+            <p class="section_text_p2">Computer Science Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Resume.pdf')">Download Resume</button>
+           
+            <button class="btn btn-color-1" ><a href="./#contact">contact Info</a></button>
+            </div>
+            <div id="social-container">
+                <img src="./files/linkedinPic.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/susmita-tupurwadkar-8b0b9a221/'">
+                <img src="./files/github.jpg" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Susmita14'">
+            </div>
+        </div>
+    </section>
+    <!--About me -->
+    <section id="about">
+        <p class="section_text_p1">Get To Konw More</p>
+        <h1 class="title" style="text-align: center;">ABOUT ME</h1>
+        <div class="section-container" >
+       <!-- <div class="section_pic-container">
+            <img src="./profile3.jpg" alt="Profile picture" class="about-pic">
+
+        </div>-->
+        <!-- spa-->
+         <div class="about-details-container"  >
+         <div class="about-container"  >       
+            <div class="text-container" >
+            <p>
+                I am <span>Susmita</span>,a <span>Computer Science and Engineering </span>Student at DKTE Society's Textile and Engineering Institute,Ichalkaranji.
+                 I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. 
+                <br>I am aware of Programming languages like C++, Java,Python ,Web development tools like HTML, CSS,JavaScript, 
+                 Bootstrap and subjects like DBMS,OS,Data Structure etc. 
+                Also I know basics of Machine Learning and Data Science <br>
+                I am passionate about developing complex applications that solve real-world problems impacting millions of users. 
+                My interest area is <u>Software development</u> and <u>Web development</u>.
+                 Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+             </p>
+        </div>
+        </div>
+       </div>
+        </div>
+    
+    <!--<img src="./arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='./Education'">-->
+    </section>
+    <!--Education-->
+    <section id="blank">
+
+    </section>
+
+       <section id="education">
+       <p class="section_text_p1">My personal journey</p>
+       <h1 class="title">MY EDUCATION</h1>
+       <div class="education-details-container">
+        <div class="about-container">
+            <div class="details-container">
+                <!--<div class="edu-item">-->
+                  <div class="line">
+                    <h4>Secondary Education</h4>
+                    <h5>2007-2018</h5>
+                    <p><em> Sou.V.D.Shinde High-School,Gadhinglaj</em></p>
+                    <p>SSC Percentage - 91.80%</p>
+                  <!--</div>--> 
+
+                  
+                 <!-- <div class="edu-item">-->
+                     <h4>Higher Secondary Education</h4>
+                     <h5>2018-2020</h5>
+                     <p><em>R.K Junior college Arts,commars and Science, Gadhinglaj. </em></p>
+                     <p>HSC Percentage - 72% (PCMB)</p>
+                  <!--</div>--> 
+                  <!-- <div class="edu-item">-->
+                     <h4>B.Tech - Computer Science and Engineering</h4>
+                     <h5>2020 - Present</h5>
+                     <p><em>DKTE Society's Textile and Engineering Institute, Ichalkaranji.
+                     </em></p>
+                     <p>CGPA(Till 2nd year)-8.19</p>
+                    <!--</div>--> 
+                 </div>
+                </div>
+                 </div>
+             </div>
+           </div>
+                </div>
+               
+            </div>
+        </div>
+       </div>
+       <!--<img src="./arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='./SKILLS'">-->
+       </section>
+       <br><br><br><br> <br><br><br><br><br><br><br><br>
+      
+      </section>
+   
+    <section id="skill-section">
+      <div class="header skill-head">
+        <p>Explore My</p>
+          <h2><span>SKILLS</span></h2>
+      </div>
+      <div class="skill-main">
+       
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p class="percent">60%</p>
+            </div>
+          
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p class="percent">60%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>JavaScript</p>
+              <p class="percent">35%</p>
+            </div>
+            <div class="bar">
+              <span class="js"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>C language</p>
+              <p class="percent">50%</p>
+            </div>
+            <div class="bar">
+              <span class="C"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>C++</p>
+              <p class="percent">60%</p>
+            </div>
+            <div class="bar">
+              <span class="Cpp"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>Java</p>
+              <p class="percent">65%</p>
+            </div>
+            <div class="bar">
+              <span class="Java"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>Python</p>
+
+              <p class="percent">40%</p>
+            </div>
+
+            <div class="bar">
+              <span class="python"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>SQL</p>
+              <p class="percent">60%</p>
+            </div>
+            <div class="bar">
+              <span class="sql"></span>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+    <section id="workk">
+    
+      <div class="header work-head">
+       
+          <h2>My <span>Work</span></h2>
+      </div>
+      <div class="main-work">
+      <div class="work">
+         
+        <h3 class="virtual-internship"> <img src="./files/internship.png" alt=""> Virtual Internships by AICTE</h3>
+        <li>&#9889;AWS Cloud Virual Internships.</li>
+        <p> I had successfully completed the AWS Cloud Virtual Internship during (Mar - May 2023), gained the basic knowledge about cloud foundation and cloud architecture.</p>
+        <a href="https://www.credly.com/badges/2a7678b2-7941-4ca8-8da2-b99f6041253d/public_url" target="_blank"><button>Click here</button></a>
+        
+        <li>&#9889;AWS Machine Learning Virual Internships.</li>
+        <p>I had successfully completed the AWS Cloud Virtual Internship during (Nov2022 -Jan2023), gained the knowledge about different Machine Learning Algorithms and techniques,how Machine Learning is useful to solve real world problems.</p>
+        <a href="https://www.credly.com/badges/add2164e-d02e-4b98-a1b8-96de695bd685" target="_blank"><button>Click here</button></a>
+        
+          <button class="cer_btnn" onclick="window.open('./files/AI_ML_Certificate.pdf')">Certificate</button>
+     
+          <li>&#9889;Web Development Virual Internships.</li>
+          <p>I had successfully completed the Web Development Virtual Internship during (Dec 2022-Feb 2023), The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React to gained knowledge. </p>
+         
+            <button class="cer_btn" onclick="window.open('./files/Web Development Training - Certificate.pdf')">Certificate</button>
+       
+      
+        <h3 class="project"> <img src="./files/project.png" alt="">Projects</h3>
+        <li>&#9889;Recruitment Management System.</li>
+        <p> 
+          (Using Web Development)
+          use technologies - HTML, CSS, javaScript, PHP,
+          MySQL, Bootstrap.
+          This Recruitment Management System provides an
+          online platform for job seekers to find their new
+          career by browsing the job vacancies in a certain
+          company and sending an application using the site.
+          It also helps the certain company recruitment
+          processes to be more efficient and effective in which
+          they can simply store, retrieve, and manage their
+          applicant data.
+          </p>
+          <button class="cer_btn" onclick="window.open('./files/Mini_Project_Report')">Read More</button>
+       
+          <h3 class="myprofiles"> <img src="./files/profiles.png" alt="">My Profiles</h3>
+          <div class="socialmedia"></div>
+          <a id="profileicons" href="https://www.linkedin.com/in/susmita-tupurwadkar-8b0b9a221/"><img src="./files/linkedin.png" alt="">LinkedIn</a>
+          <a id="profileicons" href="https://www.hackerrank.com/profile/susmita_014"><img src="./files/hackerrank.png" alt="">HackerRank</a>
+          <a id="profileicons" href="https://www.codechef.com/users/susmita_014"><img src="./files/codechef.png" alt="">CodeChef</a>
+          <a id="profileicons" href="https://github.com/Susmita14"><img src="./files/github.png" alt="">Github</a>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <section id="contact">
+        <p class="section_text_p1 contact_1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./files/email.jpg" alt="Email icon" class="icon contact-icon">
+            <p><a href="Mailto:susmitatupurwadkar5028@gmail.com" class="color1">susmitatupurwadkar5028@gmail.com</a></p>
+          </div>
+          
+            <div class="contact-info-container">
+              <img src="./files/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+              <p><a href="https://www.linkedin.com/in/susmita-tupurwadkar-8b0b9a221/" class="color1">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skill-section">SKILLS</a></li>
+          <li><a href="#workk">Work</a></li>
+          <li><a href="#contact">contact </a></li>
+      </ul>
+    </div>
+      </nav>
+      <p>Susmita Tupurwadkar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
